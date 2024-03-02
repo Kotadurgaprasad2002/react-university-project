@@ -10,6 +10,17 @@ function FaqAccordion() {
         <div className='container d-flex-column align-items-center '>
            <h2 className='text-center text-capitalize mb-5' > Frequently  asked questions  </h2>
            <p className='text-center mb-5'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quaerat,Fugiat numquam rem expedita similique necessitatibus dolore magnam natus sit ipsa, quae neque accusantium placeat laudantium mollitia, reprehenderit alias incidunt, delectus obcaecati cupiditate sed omnis repudiandae eos! Quasi unde veritatis labore quibusdam.</p>
+           <Accordion>
+            <Accordion.Item>
+            <Accordion.Header>
+                {  }
+                </Accordion.Header>
+                 <Accordion.Body>
+                 { }
+                 </Accordion.Body>
+                
+            </Accordion.Item>
+           </Accordion>
             <Accordion defaultActiveKey="" flush>
              <Accordion.Item eventKey='0'>
                 <Accordion.Header>

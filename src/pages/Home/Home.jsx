@@ -85,6 +85,7 @@ function Home() {
             <div className='container d-flex flex-column align-items-center'>
                 <h2 className='text-center text-capitalize mb-5'>Latest on the blog</h2>
                 <div className='row g-4'>
+                   
                     {blogs.map((blog) => (
                         <div key={blog.id} className='col-md-6 col-lg-4'>
                             <Link to="/blog" className='text-decoration-none'>
